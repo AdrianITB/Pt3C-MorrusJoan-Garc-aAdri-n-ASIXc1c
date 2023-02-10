@@ -38,7 +38,15 @@ footer a{
     padding-left: 2%;
     padding-right: 2%;
 }
-h2 a{
-    height: 5px;
-    width: 5px;
+section#recipes a img{
+    width: 250px;
+}
+
+section#recipes div#foto{
+    
+}
+section#recipes div#receptes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
