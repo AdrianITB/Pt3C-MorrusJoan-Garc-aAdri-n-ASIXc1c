@@ -44,22 +44,21 @@ footer a{
     padding-left: 2%;
     padding-right: 2%;
 }
-section#recipes a img#principal{
+main{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+div#sobre_mi img{
     width: 250px;
 }
-section#recipes a img{
+div#receptes img{
     width: 450px;
 }
-section#recipes div#receptes a{
+div#sobre_mi{
+    padding-right: 90%;
+}
+div#receptes{
     display: inline-block;
-    justify-content: right;
-    align-items: right;
-    text-align: right;
-    width: 700px;
-    color: black;
-    text-decoration:none;
-    padding-left: 3%;
-
 }
 a#construcción img{
     width: 100%;
