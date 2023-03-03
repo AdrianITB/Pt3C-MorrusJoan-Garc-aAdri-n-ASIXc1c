@@ -56,7 +56,7 @@ main{
     display: flex;
 }
 div#Nivel img{
-    width: 20%;
+    width: 10%;
 }
 div#caja_recetas{
     display: flex;
