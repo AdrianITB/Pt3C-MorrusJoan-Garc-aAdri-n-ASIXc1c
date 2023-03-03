@@ -70,91 +70,49 @@ a#construcción img{
 
 
 main{
+    margin-top: 2%;
     margin-left: 12%;
     margin-right: 12%;
     text-align: center;
-    display: flex;
 }
-
-
-div#titulo_libro{
-    padding-top: 4%;
-    padding-bottom: 1%;
-}
-
-
-div#text{
-    text-justify: auto;
-}
-
-
-div#capsa_esquerra{
-    width: 27%;
-}
-
-
-div#caja_recetas{
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    padding: 20px;
-}
-
-
-div#receta1{
-    width: 45%;
-    margin-bottom: 50px;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-div#receta1 img{
-    width: 100%;   
-}
-
-
-div#receta2{
-    width: 45%;
-    margin-bottom: 50px;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-div#receta2 img{
+div#introduc{
     width: 100%;
 }
-
-
-div#receta3{
-    width: 45%;
-    margin-bottom: 50px;
-    padding-left: 1%;
-    padding-right: 1%;
+div#introduc img{
+    width: 70%;
 }
-div#receta3 img{
-    width: 100%; 
+div#Titol{
+    padding-bottom: 2%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #7ABA96;
 }
-
-
-div#receta4{
-    width: 45%;
-    margin-bottom: 50px;
-    padding-left: 1%;
-    padding-right: 1%;
+div#subtit{
+    text-align: left;
+    font-size: larger;
+    justify-content: center;
 }
-div#receta4 img{
+div#ingredients{
+    padding-top: 3%;
+    text-align: left;
+    font-size: larger;
+    justify-content: center;
+}
+div#ingredients strong{
+    font-size: x-large;
+    color: #7ABA96;
+}
+div#pasos{
+    padding-top: 3%;
     width: 100%;
+    text-align: left;
+    font-size: larger;
 }
-div#Data{
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border: 0.5px solid #7ABA96;
-    border-right: 0px;
-    border-left: 0px;
+div#pasos strong{
+    font-size: x-large;
+    color: #168646;
 }
-
-div#LIBRO {
-    background-color: rgb(196, 196, 196);
-}
-div#apuntame {
-    background-color: #7ABA96;
+div#pasos img{
+    width: 85%;
+    align-items: center;
 }
