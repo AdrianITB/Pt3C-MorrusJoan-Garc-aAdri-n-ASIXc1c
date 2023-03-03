@@ -147,7 +147,14 @@ div#Data{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    border: 1px solid rgb(9, 179, 113);
+    border: 0.5px solid #7ABA96;
     border-right: 0px;
     border-left: 0px;
+}
+
+div#LIBRO {
+    background-color: rgb(196, 196, 196);
+}
+div#apuntame {
+    background-color: #7ABA96;
 }
