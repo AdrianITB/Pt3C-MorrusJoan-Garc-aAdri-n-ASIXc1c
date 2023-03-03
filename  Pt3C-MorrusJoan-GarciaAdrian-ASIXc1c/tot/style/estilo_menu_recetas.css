@@ -51,8 +51,8 @@ footer a{
 }
 main{
     padding-top: 4%;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: flex;
 }
 div#Nivel img{
@@ -61,9 +61,25 @@ div#Nivel img{
 div#caja_recetas{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     padding: 20px;
 }
 div#caja_recetas img#recepta{
     width: 80%;
+}
+div#tipusdecuina {
+    font-weight: bold;
+}
+div#Titol{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+.recepta{
+    background-color: #7aba969f;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border:1px solid rgb(0, 0, 0);
+    border-right: 0px;
+    border-left: 0px;
 }
