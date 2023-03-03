@@ -1,15 +1,18 @@
 .foto{
     text-align: center;
 }
+
+
 header{
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0);
     display: inline-block;
     width: 100%;
-    height: 10px;
-    
+    height: 10px;  
 }
+
+
 nav{
     text-align: center;
     padding-top: 1%;
@@ -17,8 +20,9 @@ nav{
     border: 1px solid black;
     border-right: 0px;
     border-left: 0px;
-    
 }
+
+
 nav a{
     color: black;
     text-decoration:none;
@@ -26,6 +30,7 @@ nav a{
     padding-right: 2%;
     background-color: rgba(240, 248, 255, 0);
 }
+
 
 footer{
     justify-content: center;
@@ -38,16 +43,21 @@ footer{
     padding-top: 2%;
     padding-bottom: 2.5%;
 }
+
+
 footer a{
     color: rgb(255, 255, 255);
     text-decoration:none;
     padding-left: 2%;
     padding-right: 2%;
 }
+
+
 main{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
 
 a#construcción img{
     width: 100%;
@@ -58,24 +68,69 @@ a#construcción img{
     text-align: center;
 }
 
+
 main{
     margin-left: 12%;
     margin-right: 12%;
     text-align: center;
 }
+
+
 div#titulo_libro{
     padding-top: 4%;
     padding-bottom: 1%;
 }
+
+
 div#text{
     text-justify: auto;
 }
+
+
 div#capsa_esquerra{
     width: 27%;
 }
+
+
+div#caja_recetas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 20px;
+}
+
+
 div#receta1{
     width: 50%;
+    margin-bottom: 50px;
 }
 div#receta1 img{
-    width: 70%;
+    width: 90%;   
+}
+
+
+div#receta2{
+    width: 50%;
+    margin-bottom: 50px;
+}
+div#receta2 img{
+    width: 90%;
+}
+
+
+div#receta3{
+    width: 50%;
+    margin-bottom: 50px;
+}
+div#receta3 img{
+    width: 90%; 
+}
+
+
+div#receta4{
+    width: 50%;
+    margin-bottom: 50px;
+}
+div#receta4 img{
+    width: 90%;
 }
