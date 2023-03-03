@@ -45,8 +45,8 @@ footer a{
     padding-right: 2%;
 }
 main{
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 a#construcción img{
@@ -58,8 +58,24 @@ a#construcción img{
     text-align: center;
 }
 
-.caja_grande{
+main{
     margin-left: 12%;
     margin-right: 12%;
-    text-
+    text-align: center;
+}
+div#titulo_libro{
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+div#text{
+    text-justify: auto;
+}
+div#capsa_esquerra{
+    width: 27%;
+}
+div#receta1{
+    width: 50%;
+}
+div#receta1 img{
+    width: 70%;
 }
